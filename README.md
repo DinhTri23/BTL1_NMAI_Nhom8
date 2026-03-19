@@ -2,15 +2,14 @@
 
 This repository contains two Python projects built for AI coursework:
 
-- `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic`: Kakurasu puzzle game with an AI solver
+- `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm`: Kakurasu puzzle game with an AI solver
 - `pipes/`: Pipes puzzle visualizer and AI solver (DFS and A*) with level conversion tools
 
 ## Repository Structure
 
 ```text
 kakurasu/
-  Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic/
-pipes/
+  Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm/
 ```
 
 ## Requirements
@@ -32,23 +31,14 @@ cd BTL1_NMAI_Nhom8
 ### 2) Run Kakurasu
 
 ```bash
-cd kakurasu/Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic
+cd kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm
 pip install -r requirements.txt
-python kakurasu.py
-```
-
-### 3) Run Pipes
-
-```bash
-cd pipes
-pip install -r requirements.txt
-python main_pipes.py
+python main.py
 ```
 
 ## Project Guides
 
-- Kakurasu guide: `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic/README.md`
-- Pipes guide: `pipes/README.md`
+- Kakurasu guide: `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm/README.md`
 - Pipes converter details: `pipes/AUTO_SCRAPER_README.md`
 
 ## Common Issues
