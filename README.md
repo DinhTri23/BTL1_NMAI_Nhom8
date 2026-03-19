@@ -1,60 +1,56 @@
-# BTL1 NMAI - AI Puzzle Solvers
+# Kakurasu Game With AI Solver
 
-This repository contains two Python projects built for AI coursework:
+Kakurasu is a grid-based puzzle game implemented with Pygame. The project includes both manual gameplay and AI-assisted solving logic.
 
-- `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm`: Kakurasu puzzle game with an AI solver
-- `pipes/`: Pipes puzzle visualizer and AI solver (DFS and A*) with level conversion tools
+## Preview
 
-## Repository Structure
+![Kakurasu UI](UI/image%201.png)
 
-```text
-kakurasu/
-  Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm/
-```
+## Features
+
+- Randomized puzzle generation
+- Interactive click-based gameplay
+- AI solving support
+- Solution validation and reveal behavior
+- Visual interface with labeled grid and clue sums
+
+## Tech Stack
+
+- Python
+- Pygame
 
 ## Requirements
 
 - Python 3.10+
-- `pip`
-- `pygame`
-- Optional for web scraping in Pipes: `requests`
+- Pygame
 
-## Quick Start
-
-### 1) Clone
+Install dependencies:
 
 ```bash
-git clone <your-repository-url>
-cd BTL1_NMAI_Nhom8
+pip install -r requirements.txt
 ```
 
-### 2) Run Kakurasu
+## Run
+
+From this folder:
 
 ```bash
-cd kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm
-pip install -r requirements.txt
 python main.py
 ```
 
-## Project Guides
+## Project Files
 
-- Kakurasu guide: `kakurasu/Kakurasu-Game-With-AI-Solver-Using-Searchings-Algorithm/README.md`
-- Pipes converter details: `pipes/AUTO_SCRAPER_README.md`
+- `main.py`: Main game loop, rendering, and AI logic
+- `images/`: Sprite and UI assets used by the game
+- `UI/`: Additional interface resources
 
-## Common Issues
+## Notes
 
-- If `pygame` fails to install, update pip first:
+- Run commands from this directory so image paths resolve correctly.
+- If the game window does not appear, verify Pygame installation and local graphics support.
 
-```bash
-python -m pip install --upgrade pip
-```
+## Acknowledgments
 
-- If the game window opens but assets are missing, run the command from the project folder (not from repository root).
+Special thanks to this repository for helpful ideas and references during development:
 
-## For GitHub Visitors
-
-To make this repository easier for others to evaluate:
-
-- Include screenshots or short demo GIFs in each project README.
-- Keep sample inputs in `pipes/inputs` for reproducible results.
-- Add problem statements, expected output, and algorithm notes in pull requests.
+- https://github.com/ERJ00/Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic/
