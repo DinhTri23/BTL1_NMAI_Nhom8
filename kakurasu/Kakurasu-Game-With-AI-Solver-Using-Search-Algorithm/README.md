@@ -1,0 +1,56 @@
+# Kakurasu Game With AI Solver
+
+Kakurasu is a grid-based puzzle game implemented with Pygame. The project includes both manual gameplay and AI-assisted solving logic.
+
+## Preview
+
+![Kakurasu UI](UI/image%201.png)
+
+## Features
+
+- Randomized puzzle generation
+- Interactive click-based gameplay
+- AI solving support
+- Solution validation and reveal behavior
+- Visual interface with labeled grid and clue sums
+
+## Tech Stack
+
+- Python
+- Pygame
+
+## Requirements
+
+- Python 3.10+
+- Pygame
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run
+
+From this folder:
+
+```bash
+python main.py
+```
+
+## Project Files
+
+- `main.py`: Main game loop, rendering, and AI logic
+- `images/`: Sprite and UI assets used by the game
+- `UI/`: Additional interface resources
+
+## Notes
+
+- Run commands from this directory so image paths resolve correctly.
+- If the game window does not appear, verify Pygame installation and local graphics support.
+
+## Acknowledgments
+
+Special thanks to this repository for helpful ideas and references during development:
+
+- https://github.com/ERJ00/Kakurasu-Game-With-AI-Solver-Using-Propositional-Logic/
