@@ -23,18 +23,54 @@ Kakurasu is a grid-based puzzle game implemented with Pygame. The project includ
 
 - Python 3.10+
 - Pygame
+- GNU Make
 
-Install dependencies:
+## Quick Start (with Makefile)
+
+From the repository root:
 
 ```bash
+make install
+```
+
+Activate the virtual environment:
+
+```bash
+make activate
+```
+
+Then run the printed command in your shell:
+
+- PowerShell: `.\\.venv\\Scripts\\Activate.ps1`
+- Bash: `source .venv/bin/activate`
+
+To deactivate later:
+
+```bash
+make deactivate
+```
+
+Run the game:
+
+```bash
+make run
+```
+
+## Manual dependency install (without Makefile)
+
+If you prefer not to use Make, install dependencies from the project folder:
+
+```bash
+cd kakurasu/Kakurasu-Game-With-AI-Solver-Using-Search-Algorithm
 pip install -r requirements.txt
 ```
 
 ## Run
 
-From this folder:
+From the project folder:
 
 ```bash
+cd kakurasu/Kakurasu-Game-With-AI-Solver-Using-Search-Algorithm
 python main.py
 ```
 

@@ -30,6 +30,20 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+If you are at the repository root, you can also use the Makefile workflow:
+
+```bash
+make install
+make activate
+make run
+```
+
+To deactivate an active virtual environment:
+
+```bash
+deactivate
+```
+
 ## Run
 
 From this folder:
